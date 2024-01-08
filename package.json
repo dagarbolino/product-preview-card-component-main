@@ -1,0 +1,22 @@
+{
+  "name": "product-preview-card-component-main",
+  "version": "1.0.0",
+  "description": "carte de prévisualisation d'un produit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dagarbolino/product-preview-card-component-main.git"
+  },
+  "author": "alex",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dagarbolino/product-preview-card-component-main/issues"
+  },
+  "homepage": "https://github.com/dagarbolino/product-preview-card-component-main#readme",
+  "dependencies": {
+    "sass": "^1.69.7"
+  }
+}
