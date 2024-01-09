@@ -1,0 +1,30 @@
+@import "variables";
+
+// mixin pour l'image en version desktop
+@mixin desktop {
+  background: $backgroungImgDesktop;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+// mixin pour l'image en version mobile
+@mixin mobile {
+  background: $backgroungImgMobile;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+// mixin pour un badge de texte
+@mixin badge {
+  color: $very-dark-blue;
+  padding: 0 20px;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-family: $font-stack2;
+  font-weight: 500;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
